@@ -1,4 +1,3 @@
-// Start Info ç¨‹å¼åŸ·è¡Œæ™‚è¼¸å‡º
 #include<stdio.h>
 #include<math.h>
 int main(){
@@ -13,11 +12,10 @@ int main(){
         printf("%.lf^%.lf = %.2lf", base, exponent, result);
     }
     else if( base == 0 & exponent == 0){
-        printf("Does not exist!!! \n");
+        printf("¤£¦s¦b!!! \n");
     }
-    else if(base == 'e' ){
-        result = exp(exponent);
-        printf("e^%.lf = %.2lf", exponent, result);
+    else if(base == 0 ){
+        printf("e^0 = 1");;
     }
     else {
         printf("Does not exist!!!!!\n");
