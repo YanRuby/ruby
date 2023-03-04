@@ -12,7 +12,7 @@ int main(){
         printf("%.lf^%.lf = %.2lf", base, exponent, result);
     }
     else if( base == 0 & exponent == 0){
-        printf("¤£¦s¦b!!! \n");
+        printf("ä¸å­˜åœ¨!!! \n");
     }
     else if(base == 0 ){
         printf("e^0 = 1");;
