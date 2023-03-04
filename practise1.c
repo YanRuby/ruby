@@ -1,21 +1,23 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    double  base, exponent ,result;
+    int  base, exponent ,result;
+    printf("================================\n");
+    printf("|> ED1 Power Function\n");
     printf("================================\n");
     printf("Please Enter base and power.\n");
-    scanf("%lf %lf", &base, &exponent);
-    printf("================================\n");
+    printf("* * * * * * * * * * * * * * * *\n");
 
+    scanf("%d %d", &base, &exponent);
     if ( base != 0 ){
         result = pow(base,exponent);
-        printf("%.lf^%.lf = %.2lf", base, exponent, result);
+        printf(">> Pow( %d, %d ) = %d\n", base, exponent, result);
     }
     else if( base == 0 & exponent == 0){
-        printf("不存在!!! \n");
+        printf(">> Pow( %d, %d ) = Does not exist!!!\n", base, exponent);
     }
     else if(base == 0 ){
-        printf("e^0 = 1");;
+        printf(">> Pow( %d, %d ) = e^0 = 1\n", base, exponent);;
     }
     else {
         printf("Does not exist!!!!!\n");
