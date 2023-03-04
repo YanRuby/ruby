@@ -20,7 +20,10 @@ int main(){
     else if( score >= 60 & score < 70){
         printf("E \n");
     }
-    else {
+    else if( score >= 0 & score < 60){
         printf("F \n");
+    }
+    else {
+        printf("Does not exist!!!!! \n");
     }
 }
