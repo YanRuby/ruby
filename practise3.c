@@ -34,4 +34,5 @@ int main(){
         default:
             printf("F\n");
     }
+    return 0 ; 
 }
