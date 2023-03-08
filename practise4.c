@@ -7,8 +7,7 @@ int main(){
         printf("================================\n");
         printf("Please Enter score.\n");
         scanf("%d", &score);
-        if( score==-1 )
-        {
+        if( score==-1 ){
             break;
         }
         if (score < 0 | score > 100 ){
@@ -43,10 +42,13 @@ int main(){
             case 0:
                 printf("F\n");
                 break;
-            return 0 ;
+            default:
+                printf("Does not exist!!!!!\n");
+                break;
         }
         
         
     }
     printf("End of run...\n");
+    return 0 ; 
 }
